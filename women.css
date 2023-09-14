@@ -1,0 +1,156 @@
+.WBOX-1 {
+    height: 600px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-image: url(../image/poster1.webp);
+}
+
+::selection {
+    color: pink;
+}
+
+.WWheadline {
+    height: 70px;
+    width: 100%;
+    /* border: 2px solid black ; */
+    padding-bottom: 25px;
+    padding-left: 10px;
+}
+
+.Wtext-1 {
+    text-decoration: underline;
+    /* text-align: center; */
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 35px;
+
+}
+
+.Wline-1 {
+    /* height: 300px; */
+    width: 100%;
+    /* border: 2px solid rgb(168, 8, 8); */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+.Wpro1 {
+    height: 300px;
+    width: 15%;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Wshoes {
+    height: 250px;
+    width: 210px;
+    /* border: 2px solid blue; */
+    transition: all 0.3s ease-in-out;
+    margin: 6px;
+}
+
+.Wshoes img {
+    height: 80%;
+    width: 100%;
+}
+
+.Wshoes:hover {
+    transform: scale(1.05);
+}
+
+.Wprice {
+    height: 45px;
+    padding: 4px;
+    width: 100%;
+    font-size: 13px;
+    /* border: 2px solid green; */
+}
+
+.WName {
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.WBOX-2 {
+    height: 700px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-image: url(../image/boxx1.jpeg);
+    margin-top: 5%;
+}
+
+.Wheadline-2 {
+    height: 70px;
+    width: 100%;
+    /* border: 2px solid black ; */
+    padding-bottom: 25px;
+    padding-left: 10px;
+}
+
+
+.WBOX-3 {
+    height: 900px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-image: url(../image/boxx3.jpg);
+    margin-top: 5%;
+}
+
+.Wheadline-3 {
+    height: 70px;
+    width: 100%;
+    /* border: 2px solid black ; */
+    padding-bottom: 25px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width:900px) {
+    .WBOX-1 {
+        height: 450px;
+
+    }
+
+    .WBOX-2 {
+        height: 450px;
+    }
+
+    .WBOX-3 {
+        height: 450px;
+    }
+}
+
+
+
+@media screen and (max-width:700px) {
+    .WBOX-1 {
+        height: 300px;
+    }
+
+    .WBOX-2 {
+        height: 300px;
+    }
+
+    .WBOX-3 {
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+    .WBOX-1 {
+        height: 250px;
+    }
+
+    .WBOX-2 {
+        height: 250px;
+    }
+
+    .WBOX-3 {
+        height: 250px;
+    }
+}
