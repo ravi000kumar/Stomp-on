@@ -2,7 +2,7 @@
     height: 600px;
     width: 100%;
     background-size: 100% 100%;
-    background-image: url(../image/poster1.webp);
+    background-image: url(./poster1.webp);
 }
 
 ::selection {
@@ -80,7 +80,7 @@
     height: 700px;
     width: 100%;
     background-size: 100% 100%;
-    background-image: url(../image/boxx1.jpeg);
+    background-image: url(./boxx1.jpeg);
     margin-top: 5%;
 }
 
@@ -97,7 +97,7 @@
     height: 900px;
     width: 100%;
     background-size: 100% 100%;
-    background-image: url(../image/boxx3.jpg);
+    background-image: url(./boxx3.jpg);
     margin-top: 5%;
 }
 
