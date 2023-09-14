@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="icon" type="icon" href="../image/bestlogo-removebg-preview.png">
+  <link rel="stylesheet" href="./sports.css">
+  <link rel="stylesheet" href="./sport-slider.css">
+  <link rel="stylesheet" href="../header-page/header.css">
+  <link rel="stylesheet" href="../footer-page/footer.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"
+    rel="stylesheet">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+  <div class="zone1">Get extra 10% off on HDFC Debit Card & Credit Cards Use Code STOMP1212 </div>
+
+  <header>
+
+    <img src="../image/bestlogo-removebg-preview - Copy.png" alt="" width="60px">
+
+    <h1 class="logoo">Stomp On ! </h1>
+
+
+
+
+    <ul class="navbar" id="navbar">
+      <li><a href="../index.html">HOME</a></li>
+            <li><a href="../mens-page/men.html">MEN</a></li>
+            <li><a href="../women-page/women.html">WOMEN</a></li>
+            <li><a href="../sports-page/sports.html">SPORTS</a></li>
+            <li><a href="../aboutus-page/about1.html">ABOUT US</a></li>
+
+        </ul>
+        <div class="header-btn">
+
+            <a href="../aboutus-page/signup.html" class="in">SIGN IN </a>
+
+      <div class="bx bx-menu" id="menu-icon" onclick="navbaropen()"><i class="fa-solid fa-bars"
+          style="color: #000000;"></i></div>
+
+    </div>
+
+  </header>
+
+  <!-- 3 faced sliderbar js -->
+
+  <div class="body12">
+
+    <div class="app">
+      <div class="cardList">
+        <button class="cardList__btn btn btn--left">
+          <div class="icon">
+            <svg>
+              <use xlink:href="#arrow-left"></use>
+            </svg>
+          </div>
+        </button>
+
+        <div class="cards__wrapper">
+          <div class="card current--card">
+            <div class="card__image">
+              <img src="../image/Adidas Predator Shoes,Adidas Soccer Cleats Mens Shoes For Cheap.jpeg" alt="" />
+            </div>
+          </div>
+
+          <div class="card next--card">
+            <div class="card__image">
+              <img src="../image/pexels-deybson-mallony-10657969.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="card previous--card">
+            <div class="card__image">
+              <img src="../image/adidas Originals ZX 930 EQT.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <button class="cardList__btn btn btn--right">
+          <div class="icon">
+            <svg>
+              <use xlink:href="#arrow-right"></use>
+            </svg>
+          </div>
+        </button>
+      </div>
+
+      <div class="infoList">
+        <div class="info__wrapper">
+          <div class="info current--info">
+            <h1 class="text name">Adidas</h1>
+            <h4 class="text location">Predator</h4>
+            <p class="text description">When you win nothing hurts</p>
+          </div>
+
+          <div class="info next--info">
+            <h1 class="text name">Adidas</h1>
+            <h4 class="text location">Original Special</h4>
+            <p class="text description">Adventure is never far away</p>
+          </div>
+
+          <div class="info previous--info">
+            <h1 class="text name">Adidas <br> Originals</h1>
+            <h4 class="text location">ZX 930 EQT</h4>
+            <p class="text description">Let your dreams come true</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="app__bg">
+        <div class="app__bg__image current--image">
+          <img src="./IMG/bg1.jpg" alt="" />
+        </div>
+        <div class="app__bg__image next--image">
+          <img src="./IMG/bg2.jpg" alt="" />
+        </div>
+        <div class="app__bg__image previous--image">
+          <img src="./IMG/bg3.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <svg class="icons" style="display: none;">
+      <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+        <polyline points='328 112 184 256 328 400'
+          style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+      </symbol>
+      <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+        <polyline points='184 112 328 256 184 400'
+          style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+      </symbol>
+    </svg>
+
+  </div>
+  <script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+
+  <!-- zone 2 start from here -->
+  <div class="zone2">
+    <div class="zone21">
+      <h5 class="zone2title">PICK YOUR SHOE</h5>
+      <h1 class="zone2title">PUMA VELOCITY NITRO </h1>
+      <h5 class="zone2title">let,s find the right shoe to make your runs effortless</h5>
+
+      <a href="../rating-page/rating.html"> <button class="pumabtn1">SHOP NOW</button></a>
+
+    </div>
+    <div class="zone22">
+      <img src="../image/pumanitro.png" alt="">
+    </div>
+
+  </div>
+
+  <div class="zone3">
+    <video autoplay muted loop height="100%" width="100%">
+      <source src="../video/pumanitro.mp4" type="video/mp4">
+    </video>
+  </div>
+
+
+
+  <div class="zone7">
+    <div class="zone71"><img src="../image/sports1.jpg" alt="">
+      <h2>MEN</h2><a href="../mens-page/men.html"><button class="pumabtn1">SHOP NOW</button></a>
+    </div>
+    <div class="zone71"><img src="../image/sports2.jpg" alt="">
+      
+        <h2>WOMEN</h2><a href="../women-page/women.html"><button class="pumabtn1">SHOP NOW</button></a>
+      
+    </div>
+  </div>
+  <div class="margindiv">
+
+    <!-- filter start from here -->
+
+    <div class="filter">
+      <h2>RECOMMENDED FOR YOU</h2>
+      <div>FILTER &nbsp; <input type="search" placeholder="search for shoes" id="find" onkeyup="search()"></div>
+    </div>
+
+    <div class="zone4">
+      <div class="product">
+        <a href="../rating-page/rating.html">
+          <img src="../image/nike2.jpg" alt=""></a>
+        <h3>Nike Phantom GX </h3>
+        <h4>Rs 3,999.00</h4>
+      </div>
+      <div class="product">
+        <a href="../rating-page/rating.html">
+
+        <img src="../image/air.jfif" alt=""></a>
+        <h3>Nike AIr Zoom Maxfly</h3>
+        <h4>Rs 7,995.00</h4>
+
+      </div>
+      <div class="product">
+        <a href="../rating-page/rating.html">
+
+        <img src=" ../image/f6bb75e3-f86b-4031-9265-4343b1e14bd7.webp " alt=""></a>
+        <h3>Jorden Mens Jumpet</h3>
+        <h4>Rs 19,999.00</h4>
+
+      </div>
+      <a href="../rating-page/rating.html">
+
+      <div class="product">
+        <img src=" ../image/air1.jfif " alt=""></a>
+        <h3>Nike Air Sneakers</h3>
+        <h4>Rs 7,000.00</h4>
+
+      </div>
+      <div class="product">
+        <a href="../rating-page/rating.html">
+
+        <img src="../image/addidas1.webp  " alt=""></a>
+        <h3>Adidas Elate M</h3>
+        <h4>Rs 2,899.00</h4>
+
+      </div>
+      <div class="product">
+        <a href="../rating-page/rating.html">
+
+        <img src=" ../image/addidas3.webp " alt=""></a>
+        <h3>Adidas X Speedportal</h3>
+        <h4>Rs 21,999.00</h4>
+
+      </div>
+      <div class="product">
+        <a href="../rating-page/rating.html">
+
+        <img src=" ../image/addidas2.webp " alt=""></a>
+        <h3>Adidas Hike Free</h3>
+        <h4>Rs 15,999.00</h4>
+
+      </div>
+      <div class="product">
+        <a href="../rating-page/rating.html">
+
+        <img src=" ../image/addidas4.webp " alt=""></a>
+        <h3>Adidas Skateboy</h3>
+        <h4>Rs 4,999.00</h4>
+
+      </div>
+      <div class="product">
+        <a href="../rating-page/rating.html">
+
+        <img src="../image/puma1.webp  " alt=""></a>
+        <h3>Puma Viz Runner</h3>
+        <h4>Rs 3,580.00</h4>
+
+      </div>
+      <div class="product">
+        <a href="../rating-page/rating.html">
+
+        <img src=" ../image/puma2.jpg " alt=""></a>
+        <h3>Puma Predator</h3>
+        <h4>Rs 5,295.00</h4>
+
+      </div>
+      <div class="product">
+        <a href="../rating-page/rating.html">
+
+        <img src=" ../image/puma3.webp " alt=""></a>
+        <h3>Puma Rebound joy</h3>
+        <h4>Rs 2,449.00</h4>
+
+      </div>
+      <div class="product">
+        <a href="../rating-page/rating.html">
+
+        <img src=" ../image/puma4.jpg " alt=""></a>
+        <h3>Puma Seuderia ferrari</h3>
+        <h4>Rs 3,449.00</h4>
+
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+  <!-- footer start from here -->
+
+
+
+  <div class="heada">
+    <div id="highlight">
+      <p> JOIN <span> Stomp On ! </span> AND GET 15% OFF</p>
+
+    </div>
+  </div>
+  <footer class="footerr">
+    <div class="containerrr">
+      <div class="row">
+        <div class="footerr-col">
+          <h4>PRODUCTS</h4>
+          <ul>
+            <li><a href="#">Footwear</a></li>
+            <li><a href="#">Outlet sale</a></li>
+            <li><a href="#">New arrivals</a></li>
+            <li><a href="#">Special offer</a></li>
+
+          </ul>
+        </div>
+        <div class="footerr-col">
+          <h4>SPORTS</h4>
+          <ul>
+            <li><a href="#">Cricket</a></li>
+            <li><a href="#">Running</a></li>
+            <li><a href="#">Football</a></li>
+            <li><a href="#">Tennis</a></li>
+          </ul>
+        </div>
+
+        <div class="footerr-col">
+          <h4>HELP & SUPPORT</h4>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../rating-page/feedback.html">Feedback</a></li>
+            <li><a href="../aboutus-page/contact.html">Contact</a></li>
+            <li><a href="../aboutus-page/signup.html">Sign Up</a></li>
+          </ul>
+        </div>
+        <div class="footerr-col">
+          <h4>FOLLOW US</h4>
+          <div class="social-links">
+            <a class="fb" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="tw" href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a class="in" href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a class="lk" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function navbaropen() {
+    var e = document.querySelector(".navbar");
+    e.classList.toggle("xyz");
+  }
+</script>
+<script type="text/javascript">
+  function search() {
+    let filter = document.getElementById('find').value.toUpperCase();
+    let item = document.querySelectorAll('.product');
+    let l = document.getElementsByTagName('h3');
+
+    for (var i = 0; i <= l.length; i++) {
+      let a = item[i].getElementsByTagName('h3')[0];
+      let value = a.innerHTML || a.innerText || a.textContent;
+      if (value.toUpperCase().indexOf(filter) > -1) {
+        item[i].style.display = "";
+      }
+      else {
+        item[i].style.display = "none";
+      }
+    }
+
+  }
+</script>
+
+
+</body>
+
+</html>
