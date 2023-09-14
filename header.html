@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="icon" href="./images/bestlogo-removebg-preview.png">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    
+    <header>
+
+        <img src="../images/bestlogo-removebg-preview.png" alt="" width="60px">
+
+        <h1 class="logoo">Stomp On ! </h1>
+
+
+        
+
+        <ul class="navbar" id="navbar">
+            <li><a href="./">MEN</a></li>
+            <li><a href="./">WOMEN</a></li>
+            <li><a href="#">KIDS</a></li>
+            <li><a href="#">SPORTS</a></li>
+            <li><a href="#">COLLECTION</a></li>
+
+        </ul>
+        <div class="header-btn">
+
+            <a href="./signup.html" class="in">SIGN IN </a>
+            
+            <div class="bx bx-menu" id="menu-icon" onclick="navbaropen()"><i class="fa-solid fa-bars" style="color: #000000;"></i></div>
+
+        </div>
+
+    </header>
+
+    <script>
+         function navbaropen() {
+            var e = document.querySelector(".navbar");
+            e.classList.toggle("xyz");
+        }
+    </script>
+
+
+</body>
+
+</html>
