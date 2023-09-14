@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Kaushan+Script&family=Roboto&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+::selection{
+    color:pink;
+}
+
+.zone1 {
+    height: 30px;
+    width: 100%;
+    background-color: #b3164a;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+
+.zone2 {
+    /* height: 100vh; */
+    width: 100%;
+    position: relative;
+    /* border: 2px solid green; */
+}
+
+.zone21 {
+    position: absolute;
+    left: 18%;
+    top: 20%;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.zone3 {
+    /* height: 250px; */
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    padding-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.zone3 p {
+    font-size: 24px;
+}
+
+.zone3 h1 {
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+    margin: 8px 0px;
+}
+
+.btn31 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn31:hover {
+    background-color: #b3164a;
+    transition: .5s;
+}
+
+.zone4 {
+    margin-top: 20px;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 5px solid rgb(0, 255, 21); */
+}
+
+.zone41 {
+    width: 45%;
+    height: 600px;
+}
+
+.zone41 img {
+    height: 100%;
+    width: 100%;
+}
+
+/* .sliderheavy{
+    height:600px;
+    width: 100%;
+    background-color: #b3164a;
+} */
+.zone5 {
+    margin: 100px 0px 0px;
+    position: relative;
+    height: 950px;
+    /* border:1px solid red; */
+  
+
+}
+
+/* sunny ka slider start */
+
+.banner1,
+.banner2,
+.banner3,
+.banner4 {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* color: yellow; */
+    z-index: -2;
+}
+
+.zone5 img {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    /* animation: zoom-out 3s linear infinite; */
+}
+
+/* @keyframes zoom-out{
+    100%{
+        width: 80%;
+    }
+} */
+.zone5 .textbox {
+    background-color: #ffffff00;
+    width: 100vh;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    color: #ffffff;
+    animation: textup 12s linear infinite;
+    transform: translateY(100px);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.zone5 .textbox h1 {
+    margin-bottom: 7px;
+
+
+}
+
+.zone5 .textbox p {
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+/* .zone5 .textbox span {
+    background: rgb(245, 116, 176);
+    height: 7px;
+    width:300px;
+    position: absolute;
+    left: 0;
+} */
+
+.zone5 .banner1 {
+    animation: slide1 12s linear infinite;
+}
+
+.zone5 .banner2 {
+    animation: slide2 12s linear infinite;
+}
+
+.zone5 .banner3 {
+    animation: slide3 12s linear infinite;
+}
+
+.zone5 .banner4 {
+    animation: slide4 12s linear infinite;
+}
+
+@keyframes slide1 {
+    0% {
+        visibility: visible;
+    }
+
+    25% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: hidden;
+    }
+
+    75% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: visible;
+    }
+}
+
+@keyframes slide2 {
+    0% {
+        visibility: hidden;
+    }
+
+    25% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: visible;
+    }
+
+    75% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes slide3 {
+    0% {
+        visibility: hidden;
+    }
+
+    25% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: hidden;
+    }
+
+    75% {
+        visibility: visible;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes slide4 {
+    0% {
+        visibility: hidden;
+    }
+
+    25% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: hidden;
+    }
+
+    75% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: visible;
+    }
+}
+
+@keyframes textup {
+    10% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.zone5 .textbox1 {
+    animation-delay: 0s;
+}
+
+.zone5 .textbox2 {
+    animation-delay: 3s;
+}
+
+.zone5 .textbox3 {
+    animation-delay: 6s;
+}
+
+.zone5 .textbox4 {
+    animation-delay: 9s;
+}
+
+.zone6 {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: 800;
+    padding: 5px;
+    margin-top: 30px;
+    /* border: 2px solid rgb(237, 108, 15); */
+
+}
+
+.zone7 {
+    /* height: 112px; */
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding: 9px;
+    /* border: 2px solid green; */
+
+
+}
+
+.zone71 {
+    width: 23%;
+    height: 90px;
+    /* border: 2px solid rgb(70, 35, 65); */
+    /* box-shadow: 2px 2px 2px 2px rgb(169, 169, 169); */
+    margin-right: 5px;
+    /* background-size: 100% 100%; */
+}
+
+.zone71 img {
+    height: 100%;
+    width: 100%;
+}
+
+/* on click project css */
+
+.zone9title {
+    text-align: center;
+}
+
+.zone9 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 9px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    background-color: rgb(255, 255, 255);
+}
+
+.zone91 {
+    height: 30px;
+    width: 120px;
+    margin-right: 9px;
+    background-color: rgb(211, 211, 211);
+    color: rgb(3, 3, 3);
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.zone91:hover{
+    background-color: rgb(115, 115, 115);
+}
+
+.zone10 {
+    width: 100%;
+    /* height: 75vh; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* padding: 9px; */
+}
+
+.zone101 {
+    height: 60vh;
+    width: 240px;
+    /* border: 1px solid black; */
+    margin: 20px 3px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-size: 100% 100%;
+    transition: all 0.4s ease-in-out;
+}
+
+.zone101:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 7px  black;
+}
+
+.zone102 {
+    background-image: url(./image/jsmen1.jpg);
+
+}
+
+.zone103 {
+    background-image: url(./image/jsmen2.jpg);
+
+}
+
+.zone104 {
+    background-image: url(./image/jsmen3.jpg);
+}
+
+.zone105 {
+    background-image: url(./image/jsmen4.jpg);
+}
+
+.zone11 {
+    /* height: 80vh; */
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: rgb(205, 203, 201);
+}
+
+.zone111 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.zone11A {
+    margin-top: 20px;
+    height: 32vh;
+    width: 36vh;
+    background-color: rgb(205, 203, 201);
+    text-align: center;
+}
+
+.zone11A p {
+    font-size: 20px;
+}
+
+.zone11A img {
+    height: 60%;
+    width: 60%;
+    margin: 10px;
+}
+
+.zone112 {
+    width: 100%;
+    text-align: center;
+}
+
+.zone112 input {
+    width: 50%;
+    height: 50px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.zone11btn {
+    width: 150px;
+    height: 50px;
+    background-color: #b3164a;
+    color: white;
+    border: none;
+    font-size: 1em;
+}
+
+.zone11btn:hover {
+    background-color: #dc4c7c;
+
+}
+/* 
+@media screen and (max-width: 1600px) {
+
+    .zone5 {
+        height: 1000px;
+    }
+
+    .zone5 img {
+        left: 50%;
+        top: 48%;
+    }
+
+    .zone41 {
+        height: 800px;
+    }
+
+
+}
+
+@media screen and (max-width: 1400px) {
+
+    .zone5 {
+        height: 820px;
+    }
+
+    .zone5 img {
+        left: 50%;
+        top: 38%;
+    }
+
+    .zone41 {
+        height: 600px;
+    }
+
+} */
+
+@media screen and (max-width: 1179px) {
+
+    .zone5 {
+        height: 700px;
+    }
+
+    .zone5 img {
+        left: 50%;
+        top: 52%;
+    }
+
+    .zone41 {
+        height: 600px;
+    }
+
+    .zone5 .textbox {
+        width: 70vh;
+        top: 220px;
+        left: 120px;
+    }
+
+    .zone5 .textbox h1 {
+        margin-bottom: 7px;
+    }
+
+    .zone5 .textbox p {
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .zone5 {
+        height: 550px;
+    }
+
+    .zone5 img {
+        left: 50%;
+        top: 43%;
+    }
+
+    .zone41 {
+        height: 450px;
+    }
+
+    .zone5 .textbox {
+        width: 70vh;
+        top: 180px;
+        left: 90px;
+    }
+
+    .zone5 .textbox h1 {
+        margin-bottom: 3px;
+        font-size: 27px;
+    }
+
+    .zone5 .textbox p {
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+
+    .zone71 {
+        height: 70px;
+    }
+
+    .zone101 {
+        width: 250px;
+    }
+
+}
+
+
+@media screen and (max-width: 700px) {
+    .zone41 {
+        height: 400px;
+    }
+
+    .zone5 {
+        height: 400px;
+    }
+
+    .zone5 img {
+        left: 50%;
+        top: 32%;
+    }
+
+    .zone5 .textbox {
+        width: 50vh;
+        top: 180px;
+        left: 90px;
+    }
+
+    .zone5 .textbox h1 {
+        margin-bottom: 3px;
+        font-size: 27px;
+    }
+
+    .zone5 .textbox p {
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+
+    .zone21 h4 {
+        font-size: 32px;
+    }
+
+    .zone21 h5 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .zone41 {
+        height: 300px;
+    }
+
+    .zone5 {
+        height: 300px;
+    }
+
+    .zone5 img {
+        left: 50%;
+        top: 22%;
+    }
+
+    .zone5 .textbox {
+        width: 50vh;
+        top: 100px;
+        left: 90px;
+    }
+
+    .zone5 .textbox h1 {
+        margin-bottom: 3px;
+        font-size: 23px;
+    }
+
+    .zone5 .textbox p {
+        font-size: 13px;
+        line-height: 20px;
+        margin-top: 17px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .zone41 {
+        height: 270px;
+    }
+
+    .zone5 {
+        height: 250px;
+    }
+
+    .zone5 img {
+        left: 50%;
+        top: 17%;
+    }
+
+    .zone5 .textbox {
+        width: 40vh;
+        top: 70px;
+        left: 50px;
+    }
+
+    .zone5 .textbox h1 {
+        margin-bottom: 3px;
+        font-size: 20px;
+    }
+
+    .zone5 .textbox p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 13px;
+    }
+
+    .zone21 h4 {
+        font-size: 22px;
+    }
+
+    .zone21 h5 {
+        font-size: 13px;
+    }
+
+    .zone71 {
+        height: 40px;
+    }
+
+    .zone91 {
+        height: 25px;
+        width: 90px;
+        margin-right: 3px;
+        padding-top: 2px;
+    }
+}
