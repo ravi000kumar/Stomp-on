@@ -1,0 +1,99 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    text-justify: auto;
+    /* display: flex; */
+}
+.container{
+    height: 120vh;
+    width: 100%;
+    /* border: 1px solid rgb(156, 156, 156); */
+    display: flex;
+}
+.head{
+    height: 26px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 3px solid rgba(119, 119, 119, 0.807);
+    border-top: 3px solid rgba(119, 119, 119, 0.807);
+
+    background-color: rgb(213, 213, 213);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 13px;
+
+}
+hr{
+    width: 330px;
+}
+.zone1{
+    /* height: 100vh; */
+    flex-basis: 50%;
+    /* border: 1px solid rgb(244, 207, 74); */
+   
+}
+.zone2{
+    /* height: 100vh; */
+    flex-basis: 30%;
+    /* border: 1px solid rgb(21, 145, 228); */
+    padding: 5px;
+
+
+}
+.zone3{
+    /* height:100vh; */
+    flex-basis: 20%;
+    /* border: 1px solid rgb(12, 34, 133); */
+    padding: 5px;
+    box-shadow: 0px 0px 5px 9px rgb(229, 225, 225);
+}
+.fa-solid{
+    font-size: 15px;
+}
+.fa-bag-shopping{
+    font-size: 45px;
+}
+.divi{
+    /* height: 150px; */
+    width: 93%;
+    /* border: 1px solid rgb(21, 145, 228); */
+    padding: 12px;
+}
+.btn1{
+    height: 42px;
+    width:90%;
+    background-color: orange;
+    text-align: center;
+    margin: 16px 5px;
+    border-radius: 19px;
+    cursor: pointer;
+    border: none;
+}
+.btn1:hover{
+    background-color: rgb(255, 196, 86);
+    
+}
+.blue{
+    color: rgb(124, 124, 255);
+    cursor: pointer;
+}
+.bold{
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn3{
+    height: 32px;
+    width:90%;
+    background-color: rgb(120, 120, 120);
+    text-align: center;
+    margin: 12px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 7px;
+    border: none;
+}
+.btn3:hover{
+    background-color: rgb(184, 184, 184);
+
+}
+

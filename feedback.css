@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 100px;
+    background-size: cover;
+    background-color: #f8becb;
+}
+
+.container form{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(152, 152, 152);
+    padding: 30px;
+    box-shadow: 20px 20px 10px rgb(60, 58, 58);
+    text-transform: capitalize;
+    border-radius: 30px;
+    color: #fff;
+}
+.container form h3{
+    text-align: center;
+    font-size: 2.5rems;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container form label{
+    font-size: 1.3rems;
+    color: rgb(216, 22, 71);
+    padding: 3px 0;
+    margin: 5px 0 5px 0;
+}
+.container form input, textarea{
+    padding: 8px;
+    border-radius: 20px;
+    margin: 16px 0 5px 0;
+    box-shadow: 5px 5px 20px rgb(180, 180, 180);
+    border: none;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+.container form #btn{
+    align-self: flex-end;
+    height: 62px;
+    border-radius: 9px;
+    border: 0;
+    outline: none;
+    width: 65px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 20px rgb(149, 149, 149);
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+.container form #btn:hover{
+    background-color:rgb(216, 22, 71);
+    color: #fff;
+}
+.pop{
+    width: 400px;
+    background: #ffffff1a;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.pop h2{
+    font-size: 38px;
+    color: black;
+    font-weight: 500;
+    margin: 30px 0 30px;
+}
+.pop p{
+    color: rgb(161, 6, 107);
+}
+.pop button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: rgb(161, 6, 107);
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border: 4px;
+    cursor: pointer;
+}
+::selection{
+    color: rgb(161, 6, 107);
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" id="f-pop">
+            <h3>Give Your feedback</h3>
+            <label for="">Name</label>
+            <input type="text" placeholder="name" required="required">
+            <label for="">Email</label>
+            <input type="email" placeholder="e-mail" required="required">
+            <label for="">Phone</label>
+            <input type="#" placeholder="Phone number" required="required">
+            <label for="">your Message</label>
+            <textarea name="" id="" cols="20" rows="8" placeholder="your Message"></textarea>
+            <button id="btn" onclick="openpop()">submit</button>
+            <div class="pop" id="popup">
+                <h2>thank you</h2>
+                <p>your detail has been successfully submitted.thanks</p>
+                <button type="submit" onclick="closepop()">ok</button>
+            </div>
+        </form>
+    </div>
+    <script>
+        function openpop(){
+            document.getElementById('popup').style.visibility="visible";
+            document.getElementById('popup').style.top="50%";
+            document.getElementById('popup').style.transform="translate(-50%,-50%) scale(1)";
+            document.getElementById('f-pop').style.visibility="hidden"
+        }
+        function closepop(){
+        document.getElementById('popup').style.visibility="hidden"
+        document.getElementById('f-pop').style.visibility="visible"
+        }
+    </script>
+
+</body>
+</html>
