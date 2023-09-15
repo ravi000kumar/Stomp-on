@@ -2,7 +2,7 @@
     height: 550px;
     width: 100%;
     background-size: 100% 100%;
-    background-image: url(../image/box1.jpg);
+    background-image: url(./box1.jpg);
 }
 ::selection{
     color:pink;
@@ -62,7 +62,7 @@ font-size: 35px;
     height: 600px;
     width: 100%;
     background-size: 100% 100%;
-    background-image: url(../image/box5.jpg);
+    background-image: url(./box5.jpg);
     margin-top: 5%;
 }
 .headline-2{
@@ -78,7 +78,7 @@ font-size: 35px;
     height: 700px;
     width: 100%;
     background-size: 100% 100%;
-    background-image: url(../image/boxx4.jpg);
+    background-image: url(./boxx4.jpg);
     margin-top: 5%;
 }
 .headline-3{
